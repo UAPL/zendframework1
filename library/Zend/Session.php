@@ -373,7 +373,7 @@ class Zend_Session extends Zend_Session_Abstract
                 'path' => $cookieParams['path'],
                 'domain' => $cookieParams['domain'],
                 'secure' => true,
-                'samesite' => 'None'
+                'samesite' => 'Strict'
             ]
         );
 
